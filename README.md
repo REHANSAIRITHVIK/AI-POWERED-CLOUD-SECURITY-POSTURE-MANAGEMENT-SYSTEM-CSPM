@@ -61,9 +61,10 @@ npm install
 npm start
 
 ## ▶️ RUN THE PROJECT
-Open CMD / Terminal →  Uvicorn running on http://127.0.0.1:8000
+Open CMD / Terminal →  uvicorn app.main:app --reload --port 8000
 
-Open Web Browser → visit http://127.0.0.1:8000/docs
+Open Web Browser → http://127.0.0.1:8000/docs#/
+open this link to VIEW
 
 Get dual output:
 
@@ -72,6 +73,8 @@ Get dual output:
 🌐 Browser → colorful dashboard with graphs & tables
 
 ## 📊 Example Outputs
+
+**NOTE: BE CAREFUL IF WE WANT OUTPUT TO VIEW IN WEB BROWESER FIRST WE HAVE TO RUN IN CMD AND PARALLEL WE HAVE TO OPEN THE LINK PROVIDED**
 
 CMD Output
 (venv) D:\PROJECTS REHAN\AI-POWERED-CLOUD-SECURITY-POSTURE-MANAGEMENT-SYSTEM-CSPM\backend> uvicorn app.main:app --reload --port 8000
@@ -84,7 +87,7 @@ INFO:     Application startup complete.
 
 
 Web Dashboard
-http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs#/
 You’ll see the Swagger API Interface, titled:
 AI CSPM API BY D.REHAN SAI RITHVIK
 It will show all available endpoints such as:
