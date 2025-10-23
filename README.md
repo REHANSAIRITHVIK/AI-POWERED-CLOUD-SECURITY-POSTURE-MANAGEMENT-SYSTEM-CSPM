@@ -61,9 +61,9 @@ npm install
 npm start
 
 ## ▶️ RUN THE PROJECT
-Open CMD / Terminal → run backend with python app.py
+Open CMD / Terminal →  Uvicorn running on http://127.0.0.1:8000
 
-Open Web Browser → visit http://localhost:3000
+Open Web Browser → visit http://127.0.0.1:8000/docs
 
 Get dual output:
 
