@@ -60,6 +60,8 @@ CD FRONTEND
 npm install 
 npm start
 
+**NOTE: BE CAREFUL IF WE WANT OUTPUT TO VIEW IN WEB BROWESER FIRST WE HAVE TO RUN IN CMD AND PARALLEL WE HAVE TO OPEN THE LINK PROVIDED**
+
 ## ▶️ RUN THE PROJECT
 Open CMD / Terminal →  uvicorn app.main:app --reload --port 8000
 
@@ -73,8 +75,6 @@ Get dual output:
 🌐 Browser → colorful dashboard with graphs & tables
 
 ## 📊 Example Outputs
-
-**NOTE: BE CAREFUL IF WE WANT OUTPUT TO VIEW IN WEB BROWESER FIRST WE HAVE TO RUN IN CMD AND PARALLEL WE HAVE TO OPEN THE LINK PROVIDED**
 
 CMD Output
 (venv) D:\PROJECTS REHAN\AI-POWERED-CLOUD-SECURITY-POSTURE-MANAGEMENT-SYSTEM-CSPM\backend> uvicorn app.main:app --reload --port 8000
